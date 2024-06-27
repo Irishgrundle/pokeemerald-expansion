@@ -5430,6 +5430,10 @@ u16 GetBattleBGM(void)
         case TRAINER_CLASS_MAGMA_LEADER:
             return MUS_VS_AQUA_MAGMA_LEADER;
         case TRAINER_CLASS_TEAM_AQUA:
+            if (gTrainerBattleOpponent_A == TRAINER_GRUNT_RUSTURF_TUNNEL)
+            return MUS_RG_VS_TRAINER; 
+            if (gTrainerBattleOpponent_A == TRAINER_GRUNT_PETALBURG_WOODS)
+            return MUS_RG_VS_TRAINER;
         case TRAINER_CLASS_TEAM_MAGMA:
         case TRAINER_CLASS_AQUA_ADMIN:
         case TRAINER_CLASS_MAGMA_ADMIN:
