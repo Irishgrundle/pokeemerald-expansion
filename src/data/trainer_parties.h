@@ -209,19 +209,39 @@ static const struct TrainerMon sParty_GruntWeatherInst3[] = {
 
 static const struct TrainerMon sParty_GruntMuseum1[] = {
     {
-    .lvl = 15,
+    .lvl = 25,
+    .heldItem = ITEM_ROCKY_HELMET,
     .species = SPECIES_CARVANHA,
+    .moves = {MOVE_RAIN_DANCE, MOVE_BITE, MOVE_AQUA_TAIL, MOVE_SWAGGER},
+    },
+    {
+    .lvl = 24,
+    .ability = ABILITY_POISON_HEAL,
+    .heldItem = ITEM_TOXIC_ORB,
+    .species = SPECIES_GLIGAR,
+    .moves = {MOVE_SLASH, MOVE_RAIN_DANCE, MOVE_DIG, MOVE_SWAGGER},
+    },
+    {
+    .lvl = 24,
+    .ability = ABILITY_WATER_ABSORB,
+    .species = SPECIES_PALPITOAD,
+    },
+    {
+    .lvl = 23,
+    .ability = ABILITY_DRY_SKIN,
+    .species = SPECIES_CROAGUNK,
     }
 };
 
 static const struct TrainerMon sParty_GruntMuseum2[] = {
     {
-    .lvl = 14,
-    .species = SPECIES_ZUBAT,
+    .lvl = 25,
+    .ability = ABILITY_DRIZZLE,
+    .species = SPECIES_PELIPPER,
     },
     {
-    .lvl = 14,
-    .species = SPECIES_CARVANHA,
+    .lvl = 29,
+    .species = SPECIES_DEWOTT,
     }
 };
 
