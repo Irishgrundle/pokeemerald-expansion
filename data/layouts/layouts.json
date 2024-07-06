@@ -3472,8 +3472,8 @@
     {
       "id": "LAYOUT_SOUTHERN_ISLAND_EXTERIOR",
       "name": "SouthernIsland_Exterior_Layout",
-      "width": 33,
-      "height": 30,
+      "width": 50,
+      "height": 50,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
@@ -4816,7 +4816,7 @@
     {
       "id": "LAYOUT_FARAWAY_ISLAND_ENTRANCE",
       "name": "FarawayIsland_Entrance_Layout",
-      "width": 34,
+      "width": 60,
       "height": 46,
       "border_width": 2,
       "border_height": 2,
@@ -4840,7 +4840,7 @@
     {
       "id": "LAYOUT_BIRTH_ISLAND_EXTERIOR",
       "name": "BirthIsland_Exterior_Layout",
-      "width": 30,
+      "width": 100,
       "height": 30,
       "border_width": 2,
       "border_height": 2,
@@ -5292,6 +5292,42 @@
       "secondary_tileset": "gTileset_MysteryEventsHouse",
       "border_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE_101_SIDE",
+      "name": "Route_101_side_Layout",
+      "width": 20,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/Route_101_side/border.bin",
+      "blockdata_filepath": "data/layouts/Route_101_side/map.bin"
+    },
+    {
+      "id": "LAYOUT_PETALBURG_GROTTO",
+      "name": "Petalburg_Grotto_Layout",
+      "width": 20,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/Petalburg_Grotto/border.bin",
+      "blockdata_filepath": "data/layouts/Petalburg_Grotto/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE_127_SIDE",
+      "name": "Route_127_side_Layout",
+      "width": 30,
+      "height": 30,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Mossdeep",
+      "border_filepath": "data/layouts/Route_127_side/border.bin",
+      "blockdata_filepath": "data/layouts/Route_127_side/map.bin"
     }
   ]
 }

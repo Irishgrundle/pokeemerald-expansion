@@ -1072,3 +1072,9 @@ EventScript_VsSeekerChargingDone::
 	.include "data/text/frontier_brain.inc"
 	.include "data/text/save.inc"
 	.include "data/text/birch_speech.inc"
+
+	.include "data/maps/Route_101_side/scripts.inc"
+
+	.include "data/maps/Petalburg_Grotto/scripts.inc"
+
+	.include "data/maps/Route_127_side/scripts.inc"

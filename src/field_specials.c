@@ -3227,17 +3227,17 @@ static const u16 sDeoxysRockPalettes[DEOXYS_ROCK_LEVELS][16] = {
 };
 
 static const u8 sDeoxysRockCoords[DEOXYS_ROCK_LEVELS][2] = {
-    { 15, 12 },
-    { 11, 14 },
-    { 15,  8 },
-    { 19, 14 },
-    { 12, 11 },
-    { 18, 11 },
-    { 15, 14 },
-    { 11, 14 },
-    { 19, 14 },
-    { 15, 15 },
-    { 15, 10 },
+    { 82, 12 },
+    { 78, 14 },
+    { 82,  8 },
+    { 86, 14 },
+    { 79, 11 },
+    { 85, 11 },
+    { 82, 14 },
+    { 78, 14 },
+    { 86, 14 },
+    { 82, 15 },
+    { 82, 10 },
 };
 
 static void Task_DeoxysRockInteraction(u8 taskId)
