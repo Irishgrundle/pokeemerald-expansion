@@ -5313,7 +5313,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Fortree",
       "border_filepath": "data/layouts/Petalburg_Grotto/border.bin",
       "blockdata_filepath": "data/layouts/Petalburg_Grotto/map.bin"
     },
