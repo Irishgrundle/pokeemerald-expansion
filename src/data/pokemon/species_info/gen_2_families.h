@@ -344,6 +344,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .levelUpLearnset = sTyphlosionLevelUpLearnset,
         .teachableLearnset = sTyphlosionTeachableLearnset,
         .formSpeciesIdTable = sTyphlosionFormSpeciesIdTable,
+        .evolutions = EVOLUTION({EVO_ITEM, ITEM_PRISM_SCALE, SPECIES_TYPHLOSION_HISUIAN}),
     },
 
 #if P_HISUIAN_FORMS
@@ -4892,6 +4893,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .levelUpLearnset = sCorsolaLevelUpLearnset,
         .teachableLearnset = sCorsolaTeachableLearnset,
         .formSpeciesIdTable = sCorsolaFormSpeciesIdTable,
+        .evolutions = ({EVO_ITEM, ITEM_PRISM_SCALE, SPECIES_CORSOLA_GALARIAN})
     },
 
 #if P_GALARIAN_FORMS
