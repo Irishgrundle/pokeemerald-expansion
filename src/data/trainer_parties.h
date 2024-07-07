@@ -2800,9 +2800,16 @@ static const struct TrainerMon sParty_Jeffrey5[] = {
 
 static const struct TrainerMon sParty_Edward[] = {
     {
-    .lvl = 15,
-    .species = SPECIES_ABRA,
-    .moves = {MOVE_HIDDEN_POWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .lvl = 29,
+    .species = SPECIES_KADABRA,
+    .moves = {MOVE_HIDDEN_POWER, MOVE_RECOVER, MOVE_THUNDERBOLT, MOVE_FUTURE_SIGHT}
+    },
+    {
+    .lvl = 5,
+    .species = SPECIES_ARON,
+    .heldItem = ITEM_SHELL_BELL,
+    .ability = ABILITY_STURDY,
+    .moves = {MOVE_STEALTH_ROCK, MOVE_SANDSTORM, MOVE_ENDEAVOR, MOVE_NONE}
     }
 };
 
@@ -4495,19 +4502,19 @@ static const struct TrainerMon sParty_Ned[] = {
 
 static const struct TrainerMon sParty_Dale[] = {
     {
-    .lvl = 11,
+    .lvl = 21,
     .species = SPECIES_TENTACOOL,
     },
     {
-    .lvl = 14,
-    .species = SPECIES_WAILMER,
+    .lvl = 24,
+    .species = SPECIES_BRUXISH,
     },
     {
-    .lvl = 11,
-    .species = SPECIES_TENTACOOL,
+    .lvl = 21,
+    .species = SPECIES_PELIPPER,
     },
     {
-    .lvl = 14,
+    .lvl = 24,
     .species = SPECIES_WAILMER,
     }
 };
@@ -6504,12 +6511,16 @@ static const struct TrainerMon sParty_Conor[] = {
 
 static const struct TrainerMon sParty_Edwin1[] = {
     {
-    .lvl = 14,
+    .lvl = 25,
     .species = SPECIES_LOMBRE,
     },
     {
-    .lvl = 14,
+    .lvl = 27,
     .species = SPECIES_NUZLEAF,
+    },
+    {
+    .lvl = 25,
+    .species = SPECIES_VICTREEBEL,
     }
 };
 
@@ -9261,19 +9272,27 @@ static const struct TrainerMon sParty_Kaleb[] = {
 
 static const struct TrainerMon sParty_Joseph[] = {
     {
-    .lvl = 14,
+    .lvl = 25,
     .species = SPECIES_ELECTRIKE,
     },
     {
-    .lvl = 14,
+    .lvl = 25,
     .species = SPECIES_VOLTORB,
+    },
+    {
+    .lvl = 25,
+    .species = SPECIES_MAGMAR,
     }
 };
 
 static const struct TrainerMon sParty_Alyssa[] = {
     {
-    .lvl = 15,
-    .species = SPECIES_MAGNEMITE,
+    .lvl = 25,
+    .species = SPECIES_MAGNETON,
+    },
+    {
+    .lvl = 24,
+    .species = SPECIES_XATU,
     }
 };
 
