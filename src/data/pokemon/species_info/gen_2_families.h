@@ -4893,7 +4893,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .levelUpLearnset = sCorsolaLevelUpLearnset,
         .teachableLearnset = sCorsolaTeachableLearnset,
         .formSpeciesIdTable = sCorsolaFormSpeciesIdTable,
-        .evolutions = ({EVO_ITEM, ITEM_PRISM_SCALE, SPECIES_CORSOLA_GALARIAN})
+        .evolutions = EVOLUTION({EVO_ITEM, ITEM_PRISM_SCALE, SPECIES_CORSOLA_GALARIAN})
     },
 
 #if P_GALARIAN_FORMS
