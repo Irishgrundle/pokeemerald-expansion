@@ -94,7 +94,8 @@
     "Underwater_Route105",
     "Underwater_Route125",
     "Route_101_side",
-    "Route_127_side"
+    "Route_127_side",
+    "Route104Side"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
@@ -432,7 +433,9 @@
     "TerraCave_End",
     "AlteringCave",
     "MeteorFalls_StevensCave",
-    "Petalburg_Grotto"
+    "Petalburg_Grotto",
+    "HoennUndergroundTunnel",
+    "Underground104"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",

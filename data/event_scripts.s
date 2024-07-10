@@ -1078,3 +1078,9 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Petalburg_Grotto/scripts.inc"
 
 	.include "data/maps/Route_127_side/scripts.inc"
+
+	.include "data/maps/Route104Side/scripts.inc"
+
+	.include "data/maps/HoennUndergroundTunnel/scripts.inc"
+
+	.include "data/maps/Underground104/scripts.inc"

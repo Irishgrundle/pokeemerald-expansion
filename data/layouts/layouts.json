@@ -5328,6 +5328,42 @@
       "secondary_tileset": "gTileset_Mossdeep",
       "border_filepath": "data/layouts/Route_127_side/border.bin",
       "blockdata_filepath": "data/layouts/Route_127_side/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE104SIDE",
+      "name": "Route104Side_Layout",
+      "width": 30,
+      "height": 30,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/Route104Side/border.bin",
+      "blockdata_filepath": "data/layouts/Route104Side/map.bin"
+    },
+    {
+      "id": "LAYOUT_HOENN_UNDERGROUND_TUNNEL",
+      "name": "HoennUndergroundTunnel_Layout",
+      "width": 50,
+      "height": 50,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/HoennUndergroundTunnel/border.bin",
+      "blockdata_filepath": "data/layouts/HoennUndergroundTunnel/map.bin"
+    },
+    {
+      "id": "LAYOUT_UNDERGROUND104",
+      "name": "Underground104_Layout",
+      "width": 50,
+      "height": 50,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/Underground104/border.bin",
+      "blockdata_filepath": "data/layouts/Underground104/map.bin"
     }
   ]
 }

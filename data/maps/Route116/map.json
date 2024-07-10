@@ -17,6 +17,11 @@
       "map": "MAP_RUSTBORO_CITY",
       "offset": 0,
       "direction": "left"
+    },
+    {
+      "map": "MAP_VERDANTURF_TOWN",
+      "offset": 80,
+      "direction": "down"
     }
   ],
   "object_events": [

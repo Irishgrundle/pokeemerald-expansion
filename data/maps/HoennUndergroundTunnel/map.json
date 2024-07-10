@@ -1,0 +1,111 @@
+{
+  "id": "MAP_HOENN_UNDERGROUND_TUNNEL",
+  "name": "HoennUndergroundTunnel",
+  "layout": "LAYOUT_HOENN_UNDERGROUND_TUNNEL",
+  "music": "MUS_RG_SEVII_CAVE",
+  "region_map_section": "MAPSEC_LOST_CAVE",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": 0,
+  "object_events": [
+
+  ],
+  "warp_events": [
+    {
+      "x": 4,
+      "y": 48,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE104SIDE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 7,
+      "y": 45,
+      "elevation": 0,
+      "dest_map": "MAP_UNDERGROUND104",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 13,
+      "y": 29,
+      "elevation": 0,
+      "dest_map": "MAP_HOENN_UNDERGROUND_TUNNEL",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 10,
+      "y": 26,
+      "elevation": 0,
+      "dest_map": "MAP_HOENN_UNDERGROUND_TUNNEL",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 7,
+      "y": 12,
+      "elevation": 0,
+      "dest_map": "MAP_HOENN_UNDERGROUND_TUNNEL",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 2,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_HOENN_UNDERGROUND_TUNNEL",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 38,
+      "y": 48,
+      "elevation": 0,
+      "dest_map": "MAP_HOENN_UNDERGROUND_TUNNEL",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 41,
+      "y": 45,
+      "elevation": 0,
+      "dest_map": "MAP_HOENN_UNDERGROUND_TUNNEL",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 32,
+      "y": 34,
+      "elevation": 0,
+      "dest_map": "MAP_HOENN_UNDERGROUND_TUNNEL",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 32,
+      "y": 32,
+      "elevation": 0,
+      "dest_map": "MAP_HOENN_UNDERGROUND_TUNNEL",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 39,
+      "y": 12,
+      "elevation": 0,
+      "dest_map": "MAP_HOENN_UNDERGROUND_TUNNEL",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 41,
+      "y": 12,
+      "elevation": 0,
+      "dest_map": "MAP_HOENN_UNDERGROUND_TUNNEL",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}
