@@ -1,0 +1,8 @@
+mapscripts Route104Side_MapScripts{}
+
+script Route104side_Eventscript_Sign {
+lockall
+msgbox("Underground Tunnel")
+releaseall
+
+}
