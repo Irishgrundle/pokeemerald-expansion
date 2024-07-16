@@ -6,3 +6,23 @@ msgbox("Underground Tunnel")
 releaseall
 
 }
+
+script Route104Side_Eventscript_TBBryan{
+trainerbattle_single(TRAINER_BRYANK, Bryan_intro, Bryan_outro)
+msgbox(PostBattle_Bryan, MSGBOX_AUTOCLOSE)
+waitmessage
+end
+}
+
+text Bryan_intro{
+    "Hey... BATTOL!"
+}
+
+text Bryan_outro{
+    "Me lose Battol...."
+}
+
+text PostBattle_Bryan{
+    "Me lose... sadface"
+}
+

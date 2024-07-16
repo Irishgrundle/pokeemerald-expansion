@@ -12253,3 +12253,14 @@ static const struct TrainerMon sParty_MayLinkPlaceholder[] = {
     .species = SPECIES_KYOGRE,
     }
 };
+
+
+static const struct TrainerMon sParty_BryanK[] = {
+    {
+    .lvl = 40,
+    .species = SPECIES_FERALIGATR,
+    .nickname = COMPOUND_STRING("Toto"),
+
+    }
+
+};

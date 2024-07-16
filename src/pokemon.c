@@ -56,6 +56,7 @@
 #include "constants/trainers.h"
 #include "constants/union_room.h"
 #include "constants/weather.h"
+#include "constants/opponents.h"
 
 #define FRIENDSHIP_EVO_THRESHOLD ((P_FRIENDSHIP_EVO_THRESHOLD >= GEN_9) ? 160 : 220)
 
@@ -5458,6 +5459,9 @@ u16 GetBattleBGM(void)
         case TRAINER_CLASS_PIKE_QUEEN:
         case TRAINER_CLASS_PYRAMID_KING:
             return MUS_VS_FRONTIER_BRAIN;
+        case TRAINER_CLASS_PKMN_TRAINER_1:
+            if(gTrainerBattleOpponent_A == TRAINER_BRYANK)
+                return MUS_RG_VS_CHAMPION;
         default:
             return MUS_VS_TRAINER;
         }
