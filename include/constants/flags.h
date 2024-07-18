@@ -46,9 +46,9 @@
 
 
 //For Bryan Events//////////////////////////////
-#define FLAG_UNUSED_0x021    0x21 // Unused Flag
-#define FLAG_UNUSED_0x022    0x22 // Unused Flag
-#define FLAG_UNUSED_0x023    0x23 // Unused Flag
+#define FLAG_UNUSED_0x021    0x21 // Bryan Battle 1
+#define FLAG_UNUSED_0x022    0x22 // Bryan Battle 2
+#define FLAG_UNUSED_0x023    0x23 // Bryan Weather Institute
 #define FLAG_UNUSED_0x024    0x24 // Unused Flag
 #define FLAG_UNUSED_0x025    0x25 // Unused Flag
 #define FLAG_UNUSED_0x026    0x26 // Unused Flag

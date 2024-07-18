@@ -265,7 +265,7 @@ R102_EventScript_Bryan_Right::
 # 147 "data/maps/Route102/scripts.pory"
 	compare VAR_UNUSED_0x40F7, 0
 	goto_if_eq R102_EventScript_Bryan_Right_1
-# 167 "data/maps/Route102/scripts.pory"
+# 168 "data/maps/Route102/scripts.pory"
 	removeobject 10
 	end
 
@@ -305,74 +305,74 @@ R102_EventScript_Bryan_Right_1:
 	end
 
 
-# 174 "data/maps/Route102/scripts.pory"
+# 175 "data/maps/Route102/scripts.pory"
 Bryan_walkaway:
-# 175 "data/maps/Route102/scripts.pory"
-	walk_up
-# 175 "data/maps/Route102/scripts.pory"
-	walk_up
-# 175 "data/maps/Route102/scripts.pory"
-	walk_up
-# 175 "data/maps/Route102/scripts.pory"
-	walk_up
-# 175 "data/maps/Route102/scripts.pory"
+# 176 "data/maps/Route102/scripts.pory"
 	walk_up
 # 176 "data/maps/Route102/scripts.pory"
-	walk_left
+	walk_up
 # 176 "data/maps/Route102/scripts.pory"
-	walk_left
+	walk_up
 # 176 "data/maps/Route102/scripts.pory"
-	walk_left
+	walk_up
 # 176 "data/maps/Route102/scripts.pory"
+	walk_up
+# 177 "data/maps/Route102/scripts.pory"
 	walk_left
-# 176 "data/maps/Route102/scripts.pory"
+# 177 "data/maps/Route102/scripts.pory"
 	walk_left
-# 176 "data/maps/Route102/scripts.pory"
+# 177 "data/maps/Route102/scripts.pory"
 	walk_left
-# 176 "data/maps/Route102/scripts.pory"
+# 177 "data/maps/Route102/scripts.pory"
 	walk_left
-# 176 "data/maps/Route102/scripts.pory"
+# 177 "data/maps/Route102/scripts.pory"
 	walk_left
-# 176 "data/maps/Route102/scripts.pory"
+# 177 "data/maps/Route102/scripts.pory"
+	walk_left
+# 177 "data/maps/Route102/scripts.pory"
+	walk_left
+# 177 "data/maps/Route102/scripts.pory"
+	walk_left
+# 177 "data/maps/Route102/scripts.pory"
 	walk_left
 	step_end
 
-# 184 "data/maps/Route102/scripts.pory"
-BryanEnterRight:
 # 185 "data/maps/Route102/scripts.pory"
+BryanEnterRight:
+# 186 "data/maps/Route102/scripts.pory"
 	walk_right
-# 186 "data/maps/Route102/scripts.pory"
+# 187 "data/maps/Route102/scripts.pory"
 	walk_down
-# 186 "data/maps/Route102/scripts.pory"
+# 187 "data/maps/Route102/scripts.pory"
 	walk_down
-# 186 "data/maps/Route102/scripts.pory"
+# 187 "data/maps/Route102/scripts.pory"
 	walk_down
-# 186 "data/maps/Route102/scripts.pory"
+# 187 "data/maps/Route102/scripts.pory"
 	walk_down
-# 186 "data/maps/Route102/scripts.pory"
+# 187 "data/maps/Route102/scripts.pory"
 	walk_down
-# 186 "data/maps/Route102/scripts.pory"
+# 187 "data/maps/Route102/scripts.pory"
 	walk_down
 	step_end
 
-# 190 "data/maps/Route102/scripts.pory"
+# 191 "data/maps/Route102/scripts.pory"
 BryanEnterLeft:
-# 191 "data/maps/Route102/scripts.pory"
+# 192 "data/maps/Route102/scripts.pory"
 	walk_down
-# 191 "data/maps/Route102/scripts.pory"
+# 192 "data/maps/Route102/scripts.pory"
 	walk_down
-# 191 "data/maps/Route102/scripts.pory"
+# 192 "data/maps/Route102/scripts.pory"
 	walk_down
-# 191 "data/maps/Route102/scripts.pory"
+# 192 "data/maps/Route102/scripts.pory"
 	walk_down
-# 191 "data/maps/Route102/scripts.pory"
+# 192 "data/maps/Route102/scripts.pory"
 	walk_down
-# 191 "data/maps/Route102/scripts.pory"
+# 192 "data/maps/Route102/scripts.pory"
 	walk_down
 	step_end
 
 Bryan_intro::
-# 194 "data/maps/Route102/scripts.pory"
+# 195 "data/maps/Route102/scripts.pory"
 	.string "Hey, you must be new around here. I saw\n"
 	.string "you save BIRCH. I just came here from\l"
 	.string "the JOHTO region. I live out in\l"
@@ -382,10 +382,10 @@ Bryan_intro::
 	.string "back...$"
 
 Bryan_outro::
-# 198 "data/maps/Route102/scripts.pory"
+# 199 "data/maps/Route102/scripts.pory"
 	.string "Hmph... You're good, I'll admit.$"
 
 Bryan_postbattle::
-# 202 "data/maps/Route102/scripts.pory"
+# 203 "data/maps/Route102/scripts.pory"
 	.string "Anyways. I am already off to the first\n"
 	.string "gym. See ya 'round loser.$"

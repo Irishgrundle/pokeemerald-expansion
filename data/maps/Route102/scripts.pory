@@ -162,6 +162,7 @@ script R102_EventScript_Bryan_Right{
         removeobject(10)
         releaseall
         end
+        #applymovement(OBJ_EVENT_ID_PLAYER)
     }
     else{
         removeobject(10)

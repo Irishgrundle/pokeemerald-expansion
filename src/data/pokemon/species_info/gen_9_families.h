@@ -962,7 +962,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         FOOTPRINT(Pawmo)
         .levelUpLearnset = sPawmoLevelUpLearnset,
         .teachableLearnset = sPawmoTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_NONE, 0, SPECIES_PAWMOT}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 34, SPECIES_PAWMOT}),
     },
 
     [SPECIES_PAWMOT] =

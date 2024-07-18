@@ -12274,3 +12274,76 @@ static const struct TrainerMon sParty_BryanK[] = {
     }
 
 };
+
+static const struct TrainerMon sParty_BryanK2[] = {
+    {
+    .lvl = 20,
+    .ball = BALL_SAFARI,
+    .iv = TRAINER_PARTY_IVS(14, 14, 14, 14, 14, 14),
+    .gender = FEMALE,
+    .heldItem = ITEM_LEFTOVERS,
+    .species = SPECIES_EEVEE,
+    .nickname = COMPOUND_STRING("Vivi"),
+    },
+
+    {
+    .lvl = 22,
+    .ball = BALL_SAFARI,
+    .iv = TRAINER_PARTY_IVS(14, 14, 14, 14, 14, 14),
+    .gender = MALE,
+    .heldItem = ITEM_MYSTIC_WATER,
+    .species = SPECIES_CROCONAW,
+    .nickname = COMPOUND_STRING("Toto"),
+    .moves = {MOVE_AQUA_TAIL, MOVE_CRUNCH, MOVE_ICE_FANG, MOVE_DRAGON_DANCE}
+
+    },
+    {
+    .lvl = 20,
+    .ball = BALL_SAFARI,
+    .iv = TRAINER_PARTY_IVS(14, 14, 14, 14, 14, 14),
+    .gender = FEMALE,
+    .ability = ABILITY_GLUTTONY,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .species = SPECIES_ZIGZAGOON_GALARIAN,
+    .nickname = COMPOUND_STRING("Destiny"),
+    .moves = {MOVE_DIG, MOVE_HEADBUTT, MOVE_WORK_UP, MOVE_IRON_TAIL}
+
+    },
+    {
+    .lvl = 21,
+    .ball = BALL_SAFARI,
+    .iv = TRAINER_PARTY_IVS(14, 14, 14, 14, 14, 14),
+    .gender = FEMALE,
+    .ability = ABILITY_OWN_TEMPO,
+    .species = SPECIES_PETILIL,
+    .heldItem = ITEM_SHELL_BELL,
+    .nickname = COMPOUND_STRING("Lilly"),
+    .moves = {MOVE_GIGA_DRAIN, MOVE_LEECH_SEED, MOVE_SLEEP_POWDER, MOVE_DREAM_EATER}
+
+    },
+
+    {
+    .lvl = 25,
+    .ball = BALL_SAFARI,
+    .iv = TRAINER_PARTY_IVS(14, 14, 14, 14, 14, 14),
+    .gender = MALE,
+    .ability = ABILITY_OWN_TEMPO,
+    .species = SPECIES_PICHU,
+    .heldItem = ITEM_EVIOLITE,
+    .nickname = COMPOUND_STRING("Static"),
+    .moves = {MOVE_THUNDERBOLT, MOVE_THUNDER_WAVE, MOVE_DISARMING_VOICE, MOVE_DOUBLE_TEAM}
+
+    },
+
+    {
+    .lvl = 21,
+    .ball = BALL_DUSK,
+    .iv = TRAINER_PARTY_IVS(14, 14, 14, 14, 14, 14),
+    .gender = MALE,
+    .species = SPECIES_PIDGEOTTO,
+    .heldItem = ITEM_EVIOLITE,
+    .nickname = COMPOUND_STRING("Kohjo"),
+
+    },
+
+};
