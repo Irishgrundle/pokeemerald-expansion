@@ -9417,16 +9417,28 @@ static const struct TrainerMon sParty_Rhett[] = {
 
 static const struct TrainerMon sParty_Tyron[] = {
     {
-    .lvl = 19,
-    .species = SPECIES_SANDSHREW,
+    .lvl = 29,
+    .ball = BALL_PARK,
+    .species = SPECIES_SANDSLASH,
+    },
+    {
+    .lvl = 31,
+    .ball = BALL_DREAM,
+    .species = SPECIES_IVYSAUR,
     }
 };
 
 static const struct TrainerMon sParty_Celina[] = {
     {
-    .lvl = 18,
+    .lvl = 28,
+    .ball = BALL_DREAM,
     .species = SPECIES_ROSELIA,
-    }
+    },
+     {
+    .lvl = 31,
+    .ball = BALL_DREAM,
+    .species = SPECIES_ROSERADE,
+    },
 };
 
 static const struct TrainerMon sParty_Bianca[] = {
